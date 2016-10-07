@@ -4,8 +4,8 @@
 
 So动态升级方案Demo
 
-使用方法
+使用方法：
 
-运行程序显示"Bug Code"此处为调用的原链接库的方法
-运行adb push ./patch.jar /sdcard/命令，将补丁包推送到sdcard目录里，然后点击click按钮，将补丁包路径注入到nativeLibraryDirectory的首部，并加载补丁包的链接库
-若补丁包起作用，应显示"Patch Code"，否则为原来的"Bug Code"
+- 直接运行程序显示"Bug Code"此处为调用的原链接库的方法显示的结果。
+
+- 运行adb push ./patch.jar /sdcard/命令，将补丁包推送到sdcard目录里，然后点击click按钮，将补丁包路径注入到nativeLibraryDirectory的首部，并加载补丁包的链接库。若补丁包起作用，应显示"Patch Code"，否则为原来的"Bug Code"
